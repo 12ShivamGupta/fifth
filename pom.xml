@@ -31,7 +31,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>lamda</mainClass>
+              <mainClass>App</mainClass>
             </manifest>
           </archive>
         </configuration>
