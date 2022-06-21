@@ -1,5 +1,3 @@
-package org.example;
-
 public class Calender
 {
     public boolean isSlotAvailable(int[] time, int start, int end)
