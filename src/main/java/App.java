@@ -7,7 +7,7 @@ public class App
         Scanner sc = new Scanner(System.in);
 
         int n;
-        System.out.println("Enter numbers of slots have to added");
+        System.out.println("Enter numbers of slots have to added that are already full");
         n = sc.nextInt();
 
         Person person = new Person();
@@ -15,7 +15,7 @@ public class App
         int time[] = person.addBookedSlots(n);
 
         int queries;
-        System.out.println("No. of slots to be searched for : ");
+        System.out.println("No. of slots to be searched for availability (say 2 for (10,11) (13,14) ): ");
         queries = sc.nextInt();
 
         Calender calender = new Calender();
